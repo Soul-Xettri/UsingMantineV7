@@ -20,8 +20,6 @@ import {
 import classes from "./HeaderMegaMenu.module.css";
 import logo from "./assets/logo.png";
 import { useState } from "react";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {faCalendarDays} from '@fortawesome/free-regular-svg-icons';
 import { FaRegCalendarAlt } from 'react-icons/fa';
 
 export function HeaderMegaMenu() {
