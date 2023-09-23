@@ -11,17 +11,18 @@ import {
   ScrollArea,
   rem,
   useMantineTheme,
-  Button,
   Image,
 } from "@mantine/core";
 import { useDisclosure } from "@mantine/hooks";
 import {
   IconChevronDown,
-  IconCalendar,
 } from "@tabler/icons-react";
 import classes from "./HeaderMegaMenu.module.css";
 import logo from "./assets/logo.png";
 import { useState } from "react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {faCalendarDays} from '@fortawesome/free-regular-svg-icons';
+import { FaRegCalendarAlt } from 'react-icons/fa';
 
 export function HeaderMegaMenu() {
   const [drawerOpened, { toggle: toggleDrawer, close: closeDrawer }] =
@@ -31,7 +32,7 @@ export function HeaderMegaMenu() {
   const [header, setHeader] = useState(false);
 
   const changeBackground = () => {
-    if (window.scrollY >= 70) {
+    if (window.scrollY >= 30) {
       setHeader(true);
     } else {
       setHeader(false);
@@ -83,7 +84,7 @@ export function HeaderMegaMenu() {
                   >
                     Modern
                   </a>
-                  <Divider />
+                  <Divider style={{}}/>
                   <a
                     href="#"
                     style={{
@@ -496,22 +497,23 @@ export function HeaderMegaMenu() {
                 </div>
               </HoverCard.Dropdown>
             </HoverCard>
-            <Button
-              style={{
-                lineHeight: "24px",
-                fontSize: "15px",
-                fontWeight: 600,
-                borderRadius: "4px",
-                letterSpacing: ".5px",
-                padding: "10px 20px",
-                marginLeft: "20px",
-                marginRight: "20px",
-                backgroundColor: "#deb666",
-              }}
+            <button
+            className={classes.button}
+              // style={{
+              //   lineHeight: "24px",
+              //   fontSize: "15px",
+              //   fontWeight: 600,
+              //   borderRadius: 0,
+              //   letterSpacing: ".5px",
+              //   padding: "10px 20px",
+              //   marginLeft: "20px",
+              //   marginRight: "20px",
+              //   backgroundColor: "#deb666",
+              // }}
             >
-              <IconCalendar style={{ marginRight: "8px" }} />
+              <FaRegCalendarAlt style={{fontSize:"25px",marginRight:"10px",padding:"6px",backgroundColor:"rgba(0,0,0,.15)",borderRadius:"100px",}}/>
               BOOK ONLINE
-            </Button>
+            </button>
           </Group>
 
           <Burger
