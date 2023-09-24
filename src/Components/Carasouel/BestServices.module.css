@@ -1,0 +1,144 @@
+  .title{
+      color: #474747;
+      font-family:vollxin;
+      font-size: 42px;
+      font-weight: 600;
+      line-height: 1.2em;
+  }
+
+  .text{
+      color: #878D8D;
+      font-family:vollxin;
+      font-size: 17px;
+      font-weight: 500;
+      line-height: 1.4em;
+  }
+  .swimmingPool{
+      margin: 0px 0px 0px 0px;
+      padding: 20px 20px 20px 20px;
+      background-color: #FFFFFF;
+      background-image: url(https://demo.himaratheme.com/bedbreakfast/wp-content/uploads/sites/4/2022/09/swimming-pool-1.png);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: 100px auto;
+      border-style: solid;
+      border-width: 1px 1px 1px 1px;
+      border-color: #EDEDED;
+      border-radius: 8px 8px 8px 8px;
+
+  }
+  .meetingRooms{
+      margin: 0px 0px 0px 0px;
+      padding: 20px 20px 20px 20px;
+      background-color: #FFFFFF;
+      background-image: url(https://demo.himaratheme.com/bedbreakfast/wp-content/uploads/sites/4/2022/09/meeting-room-1.png);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: 100px auto;
+      border-style: solid;
+      border-width: 1px 1px 1px 1px;
+      border-color: #EDEDED;
+      border-radius: 8px 8px 8px 8px;
+
+  }
+  .spa{
+      margin: 0px 0px 0px 0px;
+      padding: 20px 20px 20px 20px;
+      background-color: #FFFFFF;
+      background-image: url(https://demo.himaratheme.com/bedbreakfast/wp-content/uploads/sites/4/2022/09/spa-counter-1.png);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: 100px auto;
+      border-style: solid;
+      border-width: 1px 1px 1px 1px;
+      border-color: #EDEDED;
+      border-radius: 8px 8px 8px 8px;
+
+  }
+  .restaurants{
+      margin: 0px 0px 0px 0px;
+      padding: 20px 20px 20px 20px;
+      background-color: #FFFFFF;
+      background-image: url(https://demo.himaratheme.com/bedbreakfast/wp-content/uploads/sites/4/2022/09/tray-1.png);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: 100px auto;
+      border-style: solid;
+      border-width: 1px 1px 1px 1px;
+      border-color: #EDEDED;
+      border-radius: 8px 8px 8px 8px;
+
+  }
+  .count{
+      color: #474747;
+      font-family: "Roboto", Sans-serif;
+      font-size: 28px;
+      font-weight: 600;
+  }
+  .word{
+      color: #7A7A7A;
+      font-family: "Vollkorn", Sans-serif;
+      font-size: 18px;
+      font-weight: 700;
+  }
+
+  .overlay {
+      position: absolute;
+      bottom: 0;
+      width: 100%; 
+      height: 25%; 
+      background: linear-gradient(0deg,hsla(0,0%,0%,1.89) 0%,rgba(0,0,0,0) 100%);
+      padding-bottom: 20px;
+      text-align: left;
+      height: 15%;
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+    }
+    .figCaption{
+      color: #fff;
+      text-align: right;
+      bottom: 9px;
+      position: absolute;
+      right: 20px;
+    }
+
+    .inner{
+      background-color: white;
+      padding:20px;
+      cursor: pointer;
+      width: 85%;    
+      max-width: 85%;
+      position: relative;
+    }
+    
+    .inner2{
+      background-color:#2D2D2D;
+      padding:11px;
+      cursor: pointer;
+      width: max-content;    
+      position: absolute;
+      top: 0;
+      transition: left 0.3s ease;
+    }
+    .innerText{
+      text-align: left;
+      font-size: 22px;
+      line-height: 14px;
+      color: #CCB28D;
+    }
+    .innerParagraph{
+      text-align: left;
+      color: #D7D7D7;
+      font-size: 16px;
+      line-height: 24px;
+      margin-bottom: 0;
+      padding-top: 10px;
+      transition: 1s ease;
+    }
+
+  .detail{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding-left: 20px;
+  }
