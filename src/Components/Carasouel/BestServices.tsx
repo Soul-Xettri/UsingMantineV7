@@ -38,7 +38,7 @@ export default function BestServices() {
   return (
     <div
       style={{
-        padding: "0px 50px 50px 50px",
+        padding: "50px 50px 50px 50px",
         paddingRight: "30px",
         backgroundColor: "#F5F3F0",
       }}
