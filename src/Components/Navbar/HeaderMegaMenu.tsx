@@ -30,7 +30,7 @@ export function HeaderMegaMenu() {
   const [header, setHeader] = useState(false);
 
   const changeBackground = () => {
-    if (window.scrollY >= 30) {
+    if (window.scrollY >= 60) {
       setHeader(true);
     } else {
       setHeader(false);
