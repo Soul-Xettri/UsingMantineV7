@@ -30,7 +30,7 @@ export default function RoomsPage() {
       >
         <div
           style={{
-            width: "100",
+            width: "100%",
             paddingLeft: "95px",
             paddingRight: "95px",
             marginRight: "auto",
@@ -121,7 +121,7 @@ export default function RoomsPage() {
                   style={{
                     fontSize: "15px",
                     lineHeight: "25px",
-                    margin: "20px 0p 10px 0",
+                    margin: "20px 0 10px 0",
                     color: "#6d7991",
                   }}
                 >
@@ -1530,20 +1530,20 @@ export default function RoomsPage() {
                         width: "20px",
                         color: "#fff",
                         display: "flex",
-                        alignItems: "center",
-                        justifyContent: "center",
-                        fontSize: "8px",
-                      }}
-                    >
-                      <FaChevronRight />
-                    </span>
-                  </button>
-                </Link>
-              </Grid.Col>
-            </Grid>
-          </div>
-        </Container>
-      </div>
-    </>
-  );
-}
+                          alignItems: "center",
+                          justifyContent: "center",
+                          fontSize: "8px",
+                        }}
+                      >
+                        <FaChevronRight />
+                      </span>
+                    </button>
+                  </Link>
+                </Grid.Col>
+              </Grid>
+            </div>
+          </Container>
+        </div>
+      </>
+    );
+  }
