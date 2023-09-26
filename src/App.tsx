@@ -1,20 +1,24 @@
 import "@mantine/core/styles.css";
 import { MantineProvider } from "@mantine/core";
 import { theme } from "./theme";
-import { Demo } from "./Demo";
 import { HeaderMegaMenu } from "./Components/Navbar/HeaderMegaMenu";
-import BestServices from "./Components/Carasouel/BestServices";
-import { Hero } from "./Components/Hero/Hero";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import HomePage from "./Pages/HomePage";
+import RoomsPage from "./Pages/RoomsPage";
 
 function App() {
   return (
     <>
       <MantineProvider theme={theme}>
-        <HeaderMegaMenu />
-        <Hero/>
-        <BestServices/>
-        <h1 className="text-3xl font-bold underline">Hello world!</h1>
-        <Demo />
+        <Router>
+          <HeaderMegaMenu />
+          <Routes>
+            <Route path="/">
+              <Route index element={<HomePage />} />
+              <Route path="rooms" element={<RoomsPage />} />
+            </Route>
+          </Routes>
+        </Router>
       </MantineProvider>
     </>
   );

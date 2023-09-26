@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.m-dee7bd2f.mantine-Grid-inner {
+  width: 100%;
+  margin: 0;
+}
