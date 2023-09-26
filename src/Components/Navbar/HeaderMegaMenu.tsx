@@ -21,6 +21,7 @@ import classes from "./HeaderMegaMenu.module.css";
 import logo from "../../assets/logo.png";
 import { useState } from "react";
 import { FaRegCalendarAlt } from 'react-icons/fa';
+import { Link } from "react-router-dom";
 
 export function HeaderMegaMenu() {
   const [drawerOpened, { toggle: toggleDrawer, close: closeDrawer }] =
@@ -30,7 +31,7 @@ export function HeaderMegaMenu() {
   const [header, setHeader] = useState(false);
 
   const changeBackground = () => {
-    if (window.scrollY >= 60) {
+    if (window.scrollY >= 30) {
       setHeader(true);
     } else {
       setHeader(false);
@@ -38,7 +39,7 @@ export function HeaderMegaMenu() {
   };
   window.addEventListener("scroll", changeBackground);
   return (
-    <Box>
+    <Box pb={80}>
       <header className={header? classes.fixedHeader:classes.header}>
         <Group justify="space-between" h="100%">
           <Image src={logo} height={60} />
@@ -53,13 +54,13 @@ export function HeaderMegaMenu() {
               withinPortal
             >
               <HoverCard.Target>
-                <a href="#" className={classes.link}>
+                <Link to="/" className={classes.link}>
                   <Center inline>
                     <Box component="span" mr={5}>
                       Home
                     </Box>
                   </Center>
-                </a>
+                </Link>
               </HoverCard.Target>
 
               <HoverCard.Dropdown
@@ -71,8 +72,8 @@ export function HeaderMegaMenu() {
                 }}
               >
                 <div style={{ display: "flex", flexDirection: "column" }}>
-                  <a
-                    href="#"
+                  <Link
+                    to="#"
                     style={{
                       textDecoration: "none",
                       padding: "10px 15px",
@@ -81,10 +82,10 @@ export function HeaderMegaMenu() {
                     }}
                   >
                     Modern
-                  </a>
+                  </Link>
                   <Divider style={{}}/>
-                  <a
-                    href="#"
+                  <Link
+                    to="#"
                     style={{
                       textDecoration: "none",
                       padding: "10px 15px",
@@ -93,10 +94,10 @@ export function HeaderMegaMenu() {
                     }}
                   >
                     City
-                  </a>
+                  </Link>
                   <Divider />
-                  <a
-                    href="#"
+                  <Link
+                    to="#"
                     style={{
                       textDecoration: "none",
                       padding: "10px 15px",
@@ -105,10 +106,10 @@ export function HeaderMegaMenu() {
                     }}
                   >
                     Island
-                  </a>
+                  </Link>
                   <Divider />
-                  <a
-                    href="#"
+                  <Link
+                    to="#"
                     style={{
                       textDecoration: "none",
                       padding: "10px 15px",
@@ -117,10 +118,10 @@ export function HeaderMegaMenu() {
                     }}
                   >
                     Summer
-                  </a>
+                  </Link>
                   <Divider />
-                  <a
-                    href="#"
+                  <Link
+                    to="#"
                     style={{
                       textDecoration: "none",
                       padding: "10px 15px",
@@ -129,10 +130,10 @@ export function HeaderMegaMenu() {
                     }}
                   >
                     Classic
-                  </a>
+                  </Link>
                   <Divider />
-                  <a
-                    href="#"
+                  <Link
+                    to="#"
                     style={{
                       textDecoration: "none",
                       padding: "10px 15px",
@@ -141,10 +142,10 @@ export function HeaderMegaMenu() {
                     }}
                   >
                     Boutique
-                  </a>
+                  </Link>
                   <Divider />
-                  <a
-                    href="#"
+                  <Link
+                    to="#"
                     style={{
                       textDecoration: "none",
                       padding: "10px 15px",
@@ -153,7 +154,7 @@ export function HeaderMegaMenu() {
                     }}
                   >
                     Lodge
-                  </a>
+                  </Link>
                 </div>
               </HoverCard.Dropdown>
             </HoverCard>
@@ -167,13 +168,13 @@ export function HeaderMegaMenu() {
               withinPortal
             >
               <HoverCard.Target>
-                <a href="#" className={classes.link}>
+                <Link to="#" className={classes.link}>
                   <Center inline>
                     <Box component="span" mr={5}>
                       Branches
                     </Box>
                   </Center>
-                </a>
+                </Link>
               </HoverCard.Target>
 
               <HoverCard.Dropdown
@@ -185,8 +186,8 @@ export function HeaderMegaMenu() {
                 }}
               >
                 <div style={{ display: "flex", flexDirection: "column" }}>
-                  <a
-                    href="#"
+                  <Link
+                    to="#"
                     style={{
                       textDecoration: "none",
                       padding: "10px 15px",
@@ -195,10 +196,10 @@ export function HeaderMegaMenu() {
                     }}
                   >
                     Branch 1
-                  </a>
+                  </Link>
                   <Divider />
-                  <a
-                    href="#"
+                  <Link
+                    to="#"
                     style={{
                       textDecoration: "none",
                       padding: "10px 15px",
@@ -207,10 +208,10 @@ export function HeaderMegaMenu() {
                     }}
                   >
                     Branch 2
-                  </a>
+                  </Link>
                   <Divider />
-                  <a
-                    href="#"
+                  <Link
+                    to="#"
                     style={{
                       textDecoration: "none",
                       padding: "10px 15px",
@@ -219,7 +220,7 @@ export function HeaderMegaMenu() {
                     }}
                   >
                     Branch 3
-                  </a>
+                  </Link>
                 </div>
               </HoverCard.Dropdown>
             </HoverCard>
@@ -233,13 +234,13 @@ export function HeaderMegaMenu() {
               withinPortal
             >
               <HoverCard.Target>
-                <a href="#" className={classes.link}>
+                <Link to="/rooms" className={classes.link}>
                   <Center inline>
                     <Box component="span" mr={5}>
                       Rooms
                     </Box>
                   </Center>
-                </a>
+                </Link>
               </HoverCard.Target>
 
               <HoverCard.Dropdown
@@ -251,8 +252,8 @@ export function HeaderMegaMenu() {
                 }}
               >
                 <div style={{ display: "flex", flexDirection: "column" }}>
-                  <a
-                    href="#"
+                  <Link
+                    to="#"
                     style={{
                       textDecoration: "none",
                       padding: "10px 15px",
@@ -261,10 +262,10 @@ export function HeaderMegaMenu() {
                     }}
                   >
                     Full Slider
-                  </a>
+                  </Link>
                   <Divider />
-                  <a
-                    href="#"
+                  <Link
+                    to="#"
                     style={{
                       textDecoration: "none",
                       padding: "10px 15px",
@@ -273,10 +274,10 @@ export function HeaderMegaMenu() {
                     }}
                   >
                     Normal Slider
-                  </a>
+                  </Link>
                   <Divider />
-                  <a
-                    href="#"
+                  <Link
+                    to="#"
                     style={{
                       textDecoration: "none",
                       padding: "10px 15px",
@@ -285,7 +286,7 @@ export function HeaderMegaMenu() {
                     }}
                   >
                     Image
-                  </a>
+                  </Link>
                 </div>
               </HoverCard.Dropdown>
             </HoverCard>
@@ -298,13 +299,13 @@ export function HeaderMegaMenu() {
               withinPortal
             >
               <HoverCard.Target>
-                <a href="#" className={classes.link}>
+                <Link to="#" className={classes.link}>
                   <Center inline>
                     <Box component="span" mr={5}>
                       Pages
                     </Box>
                   </Center>
-                </a>
+                </Link>
               </HoverCard.Target>
 
               <HoverCard.Dropdown
@@ -316,8 +317,8 @@ export function HeaderMegaMenu() {
                 }}
               >
                 <div style={{ display: "flex", flexDirection: "column" }}>
-                  <a
-                    href="#"
+                  <Link
+                    to="#"
                     style={{
                       textDecoration: "none",
                       padding: "10px 15px",
@@ -326,10 +327,10 @@ export function HeaderMegaMenu() {
                     }}
                   >
                     About Us
-                  </a>
+                  </Link>
                   <Divider />
-                  <a
-                    href="#"
+                  <Link
+                    to="#"
                     style={{
                       textDecoration: "none",
                       padding: "10px 15px",
@@ -338,10 +339,10 @@ export function HeaderMegaMenu() {
                     }}
                   >
                     Loaction
-                  </a>
+                  </Link>
                   <Divider />
-                  <a
-                    href="#"
+                  <Link
+                    to="#"
                     style={{
                       textDecoration: "none",
                       padding: "10px 15px",
@@ -350,10 +351,10 @@ export function HeaderMegaMenu() {
                     }}
                   >
                     Our Staff
-                  </a>
+                  </Link>
                   <Divider />
-                  <a
-                    href="#"
+                  <Link
+                    to="#"
                     style={{
                       textDecoration: "none",
                       padding: "10px 15px",
@@ -362,10 +363,10 @@ export function HeaderMegaMenu() {
                     }}
                   >
                     Our Resturant
-                  </a>
+                  </Link>
                   <Divider />
-                  <a
-                    href="#"
+                  <Link
+                    to="#"
                     style={{
                       textDecoration: "none",
                       padding: "10px 15px",
@@ -374,10 +375,10 @@ export function HeaderMegaMenu() {
                     }}
                   >
                     Places
-                  </a>
+                  </Link>
                   <Divider />
-                  <a
-                    href="#"
+                  <Link
+                    to="#"
                     style={{
                       textDecoration: "none",
                       padding: "10px 15px",
@@ -386,10 +387,10 @@ export function HeaderMegaMenu() {
                     }}
                   >
                     Reviews
-                  </a>
+                  </Link>
                   <Divider />
-                  <a
-                    href="#"
+                  <Link
+                    to="#"
                     style={{
                       textDecoration: "none",
                       padding: "10px 15px",
@@ -398,10 +399,10 @@ export function HeaderMegaMenu() {
                     }}
                   >
                     SPA
-                  </a>
+                  </Link>
                   <Divider />
-                  <a
-                    href="#"
+                  <Link
+                    to="#"
                     style={{
                       textDecoration: "none",
                       padding: "10px 15px",
@@ -410,10 +411,10 @@ export function HeaderMegaMenu() {
                     }}
                   >
                     Gallery
-                  </a>
+                  </Link>
                   <Divider />
-                  <a
-                    href="#"
+                  <Link
+                    to="#"
                     style={{
                       textDecoration: "none",
                       padding: "10px 15px",
@@ -422,10 +423,10 @@ export function HeaderMegaMenu() {
                     }}
                   >
                     Room Services
-                  </a>
+                  </Link>
                   <Divider />
-                  <a
-                    href="#"
+                  <Link
+                    to="#"
                     style={{
                       textDecoration: "none",
                       padding: "10px 15px",
@@ -434,10 +435,10 @@ export function HeaderMegaMenu() {
                     }}
                   >
                     404 error page
-                  </a>
+                  </Link>
                   <Divider />
-                  <a
-                    href="#"
+                  <Link
+                    to="#"
                     style={{
                       textDecoration: "none",
                       padding: "10px 15px",
@@ -446,14 +447,14 @@ export function HeaderMegaMenu() {
                     }}
                   >
                     Style Guide
-                  </a>
+                  </Link>
                 </div>
               </HoverCard.Dropdown>
             </HoverCard>
             {/* Blog Button  */}
-            <a href="#" className={classes.link}>
+            <Link to="#" className={classes.link}>
               Blog
-            </a>
+            </Link>
             {/* Rooms button  */}
             <HoverCard
               width={600}
@@ -463,13 +464,13 @@ export function HeaderMegaMenu() {
               withinPortal
             >
               <HoverCard.Target>
-                <a href="#" className={classes.link}>
+                <Link to="#" className={classes.link}>
                   <Center inline>
                     <Box component="span" mr={5}>
                       Contact Us
                     </Box>
                   </Center>
-                </a>
+                </Link>
               </HoverCard.Target>
 
               <HoverCard.Dropdown
@@ -481,8 +482,8 @@ export function HeaderMegaMenu() {
                 }}
               >
                 <div style={{ display: "flex", flexDirection: "column" }}>
-                  <a
-                    href="#"
+                  <Link
+                    to="#"
                     style={{
                       textDecoration: "none",
                       padding: "10px 15px",
@@ -491,7 +492,7 @@ export function HeaderMegaMenu() {
                     }}
                   >
                     Contact Us 2
-                  </a>
+                  </Link>
                 </div>
               </HoverCard.Dropdown>
             </HoverCard>
@@ -534,9 +535,9 @@ export function HeaderMegaMenu() {
         <ScrollArea h={`calc(100vh - ${rem(80)})`} mx="-md">
           <Divider my="sm" />
 
-          <a href="#" className={classes.link}>
+          <Link to="#" className={classes.link}>
             Home
-          </a>
+          </Link>
           <UnstyledButton className={classes.link} onClick={toggleLinks}>
             <Center inline>
               <Box component="span" mr={5}>
@@ -549,12 +550,12 @@ export function HeaderMegaMenu() {
             </Center>
           </UnstyledButton>
           <Collapse in={linksOpened}><a>d</a></Collapse>
-          <a href="#" className={classes.link}>
+          <Link to="#" className={classes.link}>
             Learn
-          </a>
-          <a href="#" className={classes.link}>
+          </Link>
+          <Link to="#" className={classes.link}>
             Academy
-          </a>
+          </Link>
 
           <Divider my="sm" />
         </ScrollArea>

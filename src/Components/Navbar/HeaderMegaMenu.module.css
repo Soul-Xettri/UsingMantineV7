@@ -7,9 +7,13 @@
   }
 }
 .header {
-  position: sticky;
+  position: fixed;
+  width: 100%;
   font-family: vollkon;
+  max-height: 5rem;
   height: rem(90px);
+  z-index: 4;
+  
   padding-left: 80px;
   padding-right: 80px;
 
