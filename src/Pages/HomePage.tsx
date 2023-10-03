@@ -5,9 +5,9 @@ import { Demo } from "../Demo";
 export default function HomePage() {
   return (
     <>
-        <Hero/>
-        <BestServices/>
-        <Demo />
+      <Hero />
+      <BestServices />
+      <Demo />
     </>
-  )
+  );
 }

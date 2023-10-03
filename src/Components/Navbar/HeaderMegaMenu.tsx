@@ -463,38 +463,14 @@ export function HeaderMegaMenu() {
               shadow="md"
               withinPortal
             >
-              <HoverCard.Target>
-                <Link to="#" className={classes.link}>
+            
+                <Link to="/contact-us" className={classes.link}>
                   <Center inline>
                     <Box component="span" mr={5}>
                       Contact Us
                     </Box>
                   </Center>
                 </Link>
-              </HoverCard.Target>
-
-              <HoverCard.Dropdown
-                style={{
-                  overflow: "hidden",
-                  width: "150px",
-                  borderRadius: "0",
-                  padding: "0",
-                }}
-              >
-                <div style={{ display: "flex", flexDirection: "column" }}>
-                  <Link
-                    to="#"
-                    style={{
-                      textDecoration: "none",
-                      padding: "10px 15px",
-                      color: "#abb8c3",
-                      fontFamily: "vollkon",
-                    }}
-                  >
-                    Contact Us 2
-                  </Link>
-                </div>
-              </HoverCard.Dropdown>
             </HoverCard>
             <button
             className={classes.button}
