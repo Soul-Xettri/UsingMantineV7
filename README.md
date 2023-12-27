@@ -97,14 +97,14 @@ Happy coding with Mantine v7 in React TypeScript! 🚀
 
 ### 4) Room Page with SimpleGrid and Grid
 <p align="center">
-  <img src="src/assets/5.ng" alt="Category Section" width="100%"/>
+  <img src="src/assets/5.png" alt="Category Section" width="100%"/>
   <br />
 </p>
 
 
 ### 5) Contact Us with Google Map Api
 <p align="center">
-  <img src="src/assets/6.ng" alt="Category Section" width="100%"/>
+  <img src="src/assets/6.png" alt="Category Section" width="100%"/>
   <br />
 </p>
 
