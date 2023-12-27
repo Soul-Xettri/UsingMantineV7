@@ -47,18 +47,6 @@ This application includes the following functionalities:
 - **Responsive Design:** Experience a responsive layout suitable for different screen sizes.
 - **Custom Styling:** Customize the styling of Mantine components to suit your needs.
 
-## Screenshots
-
-For a visual representation of the application, refer to the screenshots provided below:
-
-![Screenshot 1](screenshots/screenshot1.png)
-*Caption for Screenshot 1.*
-
-![Screenshot 2](screenshots/screenshot2.png)
-*Caption for Screenshot 2.*
-
-...
-
 ## Contributing
 
 Contributions are welcome! If you have suggestions for improvement, find bugs, or want to add new features, please submit a pull request or open an issue.
@@ -70,6 +58,8 @@ This project is licensed under the MIT License.
 Happy coding with Mantine v7 in React TypeScript! 🚀
 
 ## ScreenShorts 
+
+For a visual representation of the application, refer to the screenshots provided below:
 
 ### 1) Header with Mantine V7
 <p align="center">
