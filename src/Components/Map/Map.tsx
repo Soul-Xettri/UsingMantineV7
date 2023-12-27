@@ -16,7 +16,7 @@ export default function Map() {
   } | null>(null);
 
   const { isLoaded } = useLoadScript({
-    googleMapsApiKey: "AIzaSyAeMTiA7aLP9lOyLq_bozO9SMjjLsppkF8",
+    googleMapsApiKey: "",
   });
 
   if (!isLoaded) {
