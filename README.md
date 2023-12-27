@@ -73,49 +73,49 @@ Happy coding with Mantine v7 in React TypeScript! 🚀
 
 ### 1) Header with Mantine V7
 <p align="center">
-  <img src="src/assets/images/1.png" alt="Category Section" width="100%"/>
+  <img src="src/assets/1.png" alt="Category Section" width="100%"/>
   <br />
 </p>
 
 ### 2) Hero with Mantine V7
 <p align="center">
-  <img src="src/assets/images/2.png" alt="Category Section" width="100%"/>
+  <img src="src/assets/2.png" alt="Category Section" width="100%"/>
   <br />
 </p>
 
 ### 3) Vertical Carousel with Embla
 <p align="center">
-  <img src="src/assets/images/3.png" alt="Category Section" width="100%"/>
+  <img src="src/assets/3.png" alt="Category Section" width="100%"/>
   *White Mode*
   <br />
  </p>
 <p align="center">
-  <img src="src/assets/images/4.png" alt="Category Section" width="100%"/>
+  <img src="src/assets/4.png" alt="Category Section" width="100%"/>
   *Dark Mode*
   <br />
 </p>
 
 ### 4) Room Page with SimpleGrid and Grid
 <p align="center">
-  <img src="src/assets/images/5.ng" alt="Category Section" width="100%"/>
+  <img src="src/assets/5.ng" alt="Category Section" width="100%"/>
   <br />
 </p>
 
 
 ### 5) Contact Us with Google Map Api
 <p align="center">
-  <img src="src/assets/images/6.ng" alt="Category Section" width="100%"/>
+  <img src="src/assets/6.ng" alt="Category Section" width="100%"/>
   <br />
 </p>
 
 ### 6) Mantine Footer
 <p align="center">
-  <img src="src/assets/images/7.png" alt="Category Section" width="100%"/>
+  <img src="src/assets/7.png" alt="Category Section" width="100%"/>
   *White Mode*
   <br />
  </p>
 <p align="center">
-  <img src="src/assets/images/8.png" alt="Category Section" width="100%"/>
+  <img src="src/assets/8.png" alt="Category Section" width="100%"/>
   *Dark Mode*
   <br />
 </p>
