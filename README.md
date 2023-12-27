@@ -1,27 +1,27 @@
-# Mantinev7 React TypeScript App
+# Mantinev7 Migration Project
 
 <p align="center">
-  Welcome to my React TypeScript application built with Mantine v7. Explore the latest features and improvements introduced in Mantine version 7.
+  Welcome to my Mantinev7 migration project! This repository is dedicated to the process of updating a React TypeScript application from older versions of Mantine to the latest version (v7).
 </p>
 
 ## Introduction
 
-This React TypeScript application showcases the capabilities of Mantine v7, a modern React component library designed to simplify web development. Whether you're a seasoned developer or new to React, Mantine provides high-quality components and utilities to enhance your UI.
+This project serves as a learning and practice ground for migrating a React application that previously utilized older versions of Mantine components to the latest and improved Mantine v7. Explore the migration steps and understand the changes introduced in Mantine v7.
 
 ## Features
 
-- **Component Showcase:** Explore Mantine v7 components with various configurations.
-- **Responsive Design:** The application is designed to be responsive and accessible.
-- **TypeScript Integration:** Leverage TypeScript for type safety and an improved developer experience.
+- **Mantinev7 Components:** Experience the latest Mantine components and their updated features.
+- **Migration Steps:** The project documents the step-by-step process of migrating from older Mantine versions to v7.
+- **TypeScript Integration:** Leverage TypeScript for type safety during the migration.
 
 ## Getting Started
 
-To run this React TypeScript application locally, follow these steps:
+To explore the Mantinev7 migration project, follow these steps:
 
 1. **Clone the repository:**
     ```bash
-    git clone https://github.com/soul-xettri/mantinev7.git
-    cd mantinev7
+    git clone https://github.com/soul-xettri/mantinev7-migration.git
+    cd mantinev7-migration
     ```
 
 2. **Install dependencies:**
@@ -29,33 +29,29 @@ To run this React TypeScript application locally, follow these steps:
     yarn
     ```
 
-3. **Start the development server:**
-    ```bash
-    yarn dev
-    ```
+3. **Explore the migration steps and updated Mantine components.**
 
-4. **Open your browser and navigate to [http://localhost:5173](http://localhost:5173) to view the application.**
+## Migration Steps
 
-5. **Explore Mantine v7 components and experiment with different configurations.**
+The migration involves the following key steps:
 
-## Functionalities
+1. **Update Mantine Dependencies:** Replace older versions of Mantine packages with the latest v7 versions.
 
-This application includes the following functionalities:
+2. **Adjust Components:** Modify existing components to align with the changes introduced in Mantine v7.
 
-- **Component Showcase:** Browse through various Mantine v7 components.
-- **TypeScript Support:** Utilize TypeScript for enhanced code quality and tooling.
-- **Responsive Design:** Experience a responsive layout suitable for different screen sizes.
-- **Custom Styling:** Customize the styling of Mantine components to suit your needs.
+3. **Explore New Features:** Take advantage of new features and improvements available in Mantine v7.
+
+4. **Ensure TypeScript Compatibility:** Address any TypeScript-related issues during the migration.
 
 ## Contributing
 
-Contributions are welcome! If you have suggestions for improvement, find bugs, or want to add new features, please submit a pull request or open an issue.
+Contributions are welcome! If you have suggestions for improvement, find bugs, or want to share insights about the Mantine v7 migration process, please submit a pull request or open an issue.
 
 ## License
 
 This project is licensed under the MIT License.
 
-Happy coding with Mantine v7 in React TypeScript! 🚀
+Happy learning and migrating to Mantine v7! 🚀
 
 ## ScreenShorts 
 
