@@ -1,12 +1,8 @@
 # Mantinev7 Migration Project
 
 <p align="center">
-  Welcome to my Mantinev7 migration project! This repository is dedicated to the process of updating a React TypeScript application from older versions of Mantine to the latest version (v7).
+  Welcome to my Mantinev7 migration project! I created this Repo to learn new Vesion of Mantine (V7)
 </p>
-
-## Introduction
-
-This project serves as a learning and practice ground for migrating a React application that previously utilized older versions of Mantine components to the latest and improved Mantine v7. Explore the migration steps and understand the changes introduced in Mantine v7.
 
 ## Features
 
